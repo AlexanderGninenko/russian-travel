@@ -5,3 +5,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 48px 40px;
 }
+
+.place:last-child {
+    margin: 0 auto 92px auto;
+}
