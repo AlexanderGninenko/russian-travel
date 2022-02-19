@@ -8,7 +8,7 @@
     .intro {
         max-width: 690px;
         padding-left: 48px;
-        margin: 0;
+        /* margin: 0; */
     }
 }
 
@@ -16,7 +16,6 @@
     .intro {
         max-width: 720px;
         padding: 0 0 88px 24px;
-        margin: 0;
     }
 }
 
@@ -24,6 +23,5 @@
     .intro {
         max-width: 288px;
         padding: 0 16px 64px 16px;
-        margin: 0;
     }
 }
