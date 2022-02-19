@@ -9,12 +9,11 @@
     background-size: cover;
     background-position: center;
     color:#fff;
-    height: 740px;
+    min-height: 740px;
 }
 
 .cover__overlay::before { 
     content: '';
-    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -27,4 +26,22 @@
 
 .cover__overlay:hover::before { 
     opacity: .8;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__overlay {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__overlay {
+        min-height: 200px;
+    }
 }

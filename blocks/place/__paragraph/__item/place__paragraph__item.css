@@ -6,3 +6,16 @@
 .place__paragraph__item:first-child {
     margin-bottom: 26px;
 }
+
+.place__paragraph__item:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph__item:first-child {
+        margin-bottom: 25px;
+    }
+    .place__paragraph__item:last-child {
+        margin-bottom: 0;
+    }
+}
