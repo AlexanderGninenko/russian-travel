@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .plac__url-heading {
+    .place__url-heading {
         padding: 0 16px;    
     }
 }
